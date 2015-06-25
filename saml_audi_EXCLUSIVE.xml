@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<samlp:AuthnRequest xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" ID="_0a95d518e87ded486ff6aa6b6cbf62451d4f839c35" Version="2.0" IssueInstant="2015-06-25T11:05:44Z" Destination="https://www-qa.accessaudi.com/samljct/" AssertionConsumerServiceURL="https://aoaex-int.audiusasite.com/simplesaml/module.php/saml/sp/saml2-acs.php/default-sp" ProtocolBinding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST">
+<saml:Issuer>https://aoaex-int.audiusasite.com/simplesaml/module.php/saml/sp/metadata.php/default-sp</saml:Issuer>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+    <ds:Reference URI="#_0a95d518e87ded486ff6aa6b6cbf62451d4f839c35">
+        <ds:Transforms>
+            <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+            <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <ds:DigestValue>s4LoLHhlAwYe115UO4UhVdYvMdg=</ds:DigestValue>
+    </ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>KiV0hZqcoD83yz2Q7mhZq0hszNQiwRf4XWdoHYp5RLuWEQlujcoY2S9JOVY/cL/KseEWkh3o7mYUheDDDJ33RdRR8l2a4LkMpoiFiBP6O6tOlBuXFzny37zs1zxZ5uqkIOiISZD7X1XJdqYYDRHxoQ3paF3RZQcAduU2jkTGnquh+ZTwThW3olfzxbomknCwkccclL1rYKQyBFUeRejfLD6dFeFvlqA8XWj12m9U86955w6oUV78FTtN05EzGlm/fuzIJ6Dzli/1U7KqO+ILxbyeOgkQmcvEjoz2eCh4fMCAnsKc5vUFyI/vhkXkSwbNZfbdBKJByfe5JRlI60CWPA==</ds:SignatureValue>
+<ds:KeyInfo>
+    <ds:X509Data>
+        <ds:X509Certificate>MIIDGzCCAgOgAwIBAgIJAO7vyOhBE1k7MA0GCSqGSIb3DQEBCwUAMCQxIjAgBgNVBAMMGWFvYWV4LWludC5hdWRpdXNhc2l0ZS5jb20wHhcNMTUwNjIzMTg1NzQ1WhcNMjUwNTEyMTg1NzQ1WjAkMSIwIAYDVQQDDBlhb2FleC1pbnQuYXVkaXVzYXNpdGUuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0BF/w7PrOZuf/6/PFaCMf3ZexFD9apVfKV/7QQHiUj/T4iWPHZXqgtCGD3YLncBDzrc4gQIIB0bPnBwupJbErUjXtjU11Q1MKtg3YgzKskd4Ys54NZVlEqOVE53EjZB7X4gMWWoL6bcVdkE766khr0n4cJtGbTrSW21WusBFbdR/eKEDCCgeJrbdq95e5uDoQhO/WW97sPrx3fyunl+rFfGwbyXxQMr4H4qeqRk4nNnLxxdtkooWGM5BX6nCLjNdjAcp+LRub7eVu9Ube0fJM+KtH3/WgXw1KkBZ8J1KwLJoSLyAb9KPWpVM6kwotmJgHxU+htRK0GM3b1LrGZIHXQIDAQABo1AwTjAdBgNVHQ4EFgQUv3UVMTxmxQuL8dcy5jJak32t0gQwHwYDVR0jBBgwFoAUv3UVMTxmxQuL8dcy5jJak32t0gQwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAi9UjyTESsxRRahqdrD7hHAUPKBzHglv+eTtYUpKpvxIac55m7bzRWyFM94JZFzMWgtq4LoKsnukz1cVWYnvF3120zpcDuU2gF2oxQlbk/4kUGP7pTO95avgH1wNRGvmjLPeNQUtcnvGkNZXqpaU3TQqzQU6TtKZSsK3WDOlaiKwxGJ1rtRuJ1gX3Agbx2RX4UH8AjiOU4YfUw5E7pKvN10XDk9nsXjjYKF0KMDDruuKm2d5ixfeTPEO3Sl+3eyPZNHbXoLjznfkWh2sUv7AzllBoRPpyU5ZZ9ns5H7Tw+4oL+qcqCQmV5qhDvqK4y1LFp/6nFalx0qK0cMgdJK3DkQ==</ds:X509Certificate>
+    </ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<samlp:NameIDPolicy Format="urn:oasis:names:tc:SAML:2.0:nameid-format:transient" AllowCreate="true"/>
+</samlp:AuthnRequest>
